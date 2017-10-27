@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: #79EFBB;
+      font-family: helvetica, arial, sans-serif;
+      color: #574D43;
+      margin: 0 5%;
+      text-align: center;
+      font-size: 14px;
+    }
+    h1 {
+      font-weight: normal;
+      font-size: 75px;
+      margin: .33em 0;
+    }
+    .hero {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 750px 600px;
+      height: 600px;
+      
+      background-image: url('gully-family.png');
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio : 2) {
+      .hero {
+        background-image: url('gully-family@2x.png');
+      }
+    }
+    
+    @media only screen and (-webkit-min-device-pixel-ratio : 3) {
+      .hero {
+        background-image: url('gully-family@3x.png');
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="hero"></div>
+<h1><strong>Gully</strong> Family&nbsp;&nbsp;</h1>
+</body>
+</html>
